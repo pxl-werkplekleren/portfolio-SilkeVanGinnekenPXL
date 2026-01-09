@@ -258,6 +258,10 @@ a:hover {
     h3 { font-size: 1.1rem; }
     section, article { padding: 0.8rem 1rem; margin-bottom: 1rem; }
     #topBtn { bottom: 20px; right: 20px; padding: 0.6rem 1rem; font-size: 0.9rem; }
+    ul, ol {
+        padding-left: 0.8rem; /* minder inspringen */
+        margin-left: 0;        /* extra zekerheid */
+    }
 }
 
 @media (max-width: 500px) {
